@@ -29,10 +29,7 @@ echo "server.3=10.0.0.6:2888:3888" >> zookeeper-3.4.6/conf/zoo.cfg
 
 mkdir -p /var/lib/zookeeper
 
-echo $(($1+1)) >> /var/lib/zookeeper/myid
-
 zookeeper-3.4.6/bin/zkServer.sh start
-
 
 apt-get -y update
 
