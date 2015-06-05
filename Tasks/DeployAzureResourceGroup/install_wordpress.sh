@@ -29,8 +29,6 @@ echo "server.3=10.0.0.6:2888:3888" >> zookeeper-3.4.6/conf/zoo.cfg
 
 mkdir -p /var/lib/zookeeper
 
-zookeeper-3.4.6/bin/zkServer.sh start
-
 apt-get -y update
 
 logger "Installing WordPress"
